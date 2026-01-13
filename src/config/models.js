@@ -39,6 +39,16 @@ export const IMAGE_MODELS = [
         }
     },
     {
+        label: 'Nano Banana',
+        key: 'nano-banana',
+        tips: '尺寸写在提示词中: 尺寸 9:16',
+        sizes: [],
+        defaultParams: {
+            quality: 'standard',
+            style: 'vivid'
+        }
+    },
+    {
         label: 'Nano Banana Pro',
         key: 'nano-banana-pro',
         tips: '尺寸写在提示词中: 尺寸 9:16',
